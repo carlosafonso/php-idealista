@@ -1,0 +1,16 @@
+{
+	"name": "carlosafonso/idealista",
+	"description": "A library for using idealista.com's API",
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Idealista\\": "src",
+			"Idealista\\Tests\\": "tests"
+		}
+	}
+}
